@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="https://pixel-store.net/favicon.png" type="image/x-icon"/>
+
+    <title>Pixel Store - Oops</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Poppins, sans-serif;
+            color: #212529;
+        }
+
+        body {
+            background-color: #439fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1, p {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 5rem;
+        }
+
+        span {
+            font-size: 20rem;
+            font-weight: 700;
+            transform: rotate(90deg) translate(0, 15rem);
+            position: fixed;
+            line-height: 0;
+            left: 0;
+            bottom: 50%;
+            opacity: 0.5;
+        }
+
+        @media screen and (max-width: 917px) {
+            span {
+                left: 50%;
+                font-size: calc(20rem - 20vw);
+                bottom: 5rem;
+                transform: translate(-50%, 0);
+                opacity: 0.1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Oops!</h1>
+        <p>Um adarilho andava pelas cordilheiras, mas ele se perdeu, o que fazer agora?</p>
+        <span>404</span>
+    </main>
+</body>
+</html>
